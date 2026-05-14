@@ -24,4 +24,4 @@ Click **New Issue** and select the appropriate template. A GitHub account is req
 
 ## Contact
 
-For urgent issues or questions not suited for this tracker, contact the Nav3 development team at **nav3-support@dilon.com**.
+For urgent issues or questions not suited for this tracker, contact the Nav3 development team at **bchaloux@dilon.com**.
