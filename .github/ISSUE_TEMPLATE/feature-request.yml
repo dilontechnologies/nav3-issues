@@ -1,0 +1,41 @@
+name: Feature Request
+description: Suggest a new capability or improvement for Navigator 3.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Which part of the Navigator 3 system should this affect?
+      options:
+        - Tablet application
+        - Wired probe
+        - Wireless probe
+        - Wireless display unit
+        - Multiple components
+        - New capability (no existing component)
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Limitation
+      description: What are you trying to do that is currently difficult or impossible?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the behavior or feature you would like to see.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Use cases, clinical workflow context, or examples that help illustrate the request.

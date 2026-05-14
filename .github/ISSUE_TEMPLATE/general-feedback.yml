@@ -1,0 +1,33 @@
+name: General Feedback
+description: Share usability observations, impressions, or open-ended suggestions.
+title: "[Feedback] "
+labels: ["feedback"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What is this feedback about?
+      options:
+        - Usability / ease of use
+        - Performance / responsiveness
+        - Reliability / stability
+        - Clinical workflow fit
+        - Setup / startup experience
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: Share your observations or thoughts.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any other information that might be helpful.
