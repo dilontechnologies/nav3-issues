@@ -12,7 +12,6 @@ body:
         - Tablet application
         - Wired probe
         - Wireless probe
-        - Wireless display unit
         - Multiple components
         - New capability (no existing component)
     validations:
